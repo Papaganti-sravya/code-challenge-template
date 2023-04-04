@@ -15,7 +15,6 @@ conn.close()  #closing the connections
 3. New data model:
  
 CREATE TABLE weather_stats (
-   station TEXT,
    date TEXT,
    avg_max_temp REAL,
    avg_min_temp REAL,
